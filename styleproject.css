@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E3DAC9;
+  color: #4B3621;
+  line-height: 1.6;
+}
+
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 2rem 1rem;
+  background-color: #D2B48C;
+  color:#4D2D18;
+}
+
+header .logo {
+  max-width: 100px;
+}
+
+#cafe-name {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.tagline {
+  font-style: italic;
+  color: #D2B48C;
+}
+
+
+.seasonal-special {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #8A9A5B;
+  color: #fff;
+}
+
+.seasonal-special img {
+  max-width: 250px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+#tryButton {
+  background-color: #D2B48C;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#tryButton:hover {
+  background-color: #E3DAC9;
+  color: #354230;
+}
+
+
+.drinks {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #E3DAC9;
+}
+
+.drink-grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.drink-grid img {
+  max-width: 200px;
+  border: 2px solid #354230;
+  border-radius: 8px;
+}
+
+
+.info {
+  background-color: #D2B48C;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+
+.mood-toggle {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #8A9A5B;
+  color: #fff;
+}
+
+#toggleMood {
+  background-color: #E3DAC9;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+#toggleMood:hover {
+  background-color: #D2B48C;
+}
+
+footer {
+  background-color: #354230;
+  color: #E3DAC9;
+  text-align: center;
+  padding: 1rem;
+}
