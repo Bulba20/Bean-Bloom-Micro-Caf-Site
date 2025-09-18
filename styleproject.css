@@ -1,0 +1,285 @@
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #E3DAC9;
+  color: #4B3621;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+header {
+  text-align: center;
+  padding: 2rem 1rem 2rem 1rem;
+  background-color: #D2B48C;
+  color:#4D2D18;
+}
+
+header .logo {
+max-width: 400px;
+}
+
+#cafe-name {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.tagline {
+  font-style: italic;
+  color: #776043;
+}
+
+
+.seasonal-special {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #8A9A5B;
+  color: #fff;
+}
+
+.seasonal-special img {
+  max-width: 250px;
+  border-radius: 10px;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+#tryButton {
+  background-color: #D2B48C;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#tryButton:hover {
+  background-color: #E3DAC9;
+  color: #354230;
+}
+
+
+.drinks {
+  padding: 2rem 1rem;
+  text-align: center;
+  background-color: #E3DAC9;
+}
+
+.drink-grid {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.drink-card {
+  background-color: #E3DAC9;
+  max-width: 250px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.drink-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.drink-desc {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #2F2420;
+}
+
+.full-menu {
+  background-color: #8A9A5B;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #434b2d;
+}
+
+.information {
+  background-color: #D2B48C;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+
+.mood-toggle {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #8A9A5B;
+  color: #fff;
+}
+
+#toggleMood {
+  background-color: #E3DAC9;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+#toggleMood:hover {
+  background-color: #D2B48C;
+}
+
+footer {
+  background-color: #354230;
+  color: #E3DAC9;
+  text-align: center;
+  padding: 1rem;
+}
+.navbar {
+  background-color: #354230;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #E3DAC9;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #D2B48C;
+}
+
+.navbar.shrink {
+  background-color: #2a3226;
+  padding: 0.5rem;
+}
+
+body.night-mode {
+    background-color: #2F2420;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode header {
+    background-color: #4D2D18;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .tagline {
+    color: #D2B48C;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .navbar {
+    background-color: #201815;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .navbar.shrink {
+    background-color: #1A1513;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .navbar a {
+    color: #D2B48C;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .seasonal-special {
+    background-color: #354230;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode #tryButton {
+    background-color: #D2B48C;
+    color: #2F2420;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode #tryButton:hover {
+    background-color: #E3DAC9;
+    color: #354230;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .drinks {
+    background-color: #2F2420;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .drink-card {
+    background-color: #2F2420;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .drink-desc {
+    color: #D2B48C;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .full-menu {
+    background-color: #354230;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .information {
+    background-color: #4D2D18;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode .mood-toggle {
+    background-color: #354230;
+    color: #E3DAC9;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode #toggleMood {
+    background-color: #D2B48C;
+    color: #2F2420;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode #toggleMood:hover {
+    background-color: #E3DAC9;
+    color: #354230;
+     transition: background-color 0.5s ease-in-out;
+}
+
+body.night-mode footer {
+    background-color: #201815;
+    color: #D2B48C;
+     transition: background-color 0.5s ease-in-out;
+}
+#cafe-name:hover {
+    font-family: 'Playfair Display', serif;
+    transition: font-family 0.5s ease-in-out;
+}
